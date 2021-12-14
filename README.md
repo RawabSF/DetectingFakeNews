@@ -41,6 +41,19 @@ What is most recurring words in true news ?
 
 In this project, we are going to use Google Colab. It is a development online tool from Google Research. Colab lets any data scientists write and execute python code through the browser. Also, is especially well fit for machine learning, data analysis, and education.  
 
+- These are some libraries will be used in this project:  
+{  
+import pandas as pd  
+import numpy as np  
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+from sklearn.feature_extraction.text import CountVectorizer  
+from sklearn.feature_extraction.text import TfidfTransformer  
+from sklearn import feature_extraction, linear_model, model_selection, preprocessing  
+from sklearn.metrics import accuracy_score  
+from sklearn.model_selection import train_test_split  
+from sklearn.pipeline import Pipeline  
+}
 
 # Machine learning Algorithm
 
